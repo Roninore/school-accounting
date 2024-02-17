@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<DocumentJournal uuid="d0b55a5f-2221-477f-aab7-7f45e387875d">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЖурналВыдачиСправок" category="Selection">
+				<xr:TypeId>38afb0fd-d2e7-4bc9-942b-9fda57fbc8da</xr:TypeId>
+				<xr:ValueId>3c9e65e1-06f3-41ee-b5b6-ef397de778d5</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЖурналВыдачиСправок" category="List">
+				<xr:TypeId>527fb79e-f5d8-4ca7-b6bb-0620b642d72e</xr:TypeId>
+				<xr:ValueId>61708ff7-818f-454e-8ed1-5d02ebab0e0f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЖурналВыдачиСправок" category="Manager">
+				<xr:TypeId>cf00bebe-7bc7-4b74-8c8b-18d7115e0713</xr:TypeId>
+				<xr:ValueId>07a154f2-7a45-4a6a-a617-9b1944bba36c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЖурналВыдачиСправок</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Справки и направления</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm>DocumentJournal.ЖурналВыдачиСправок.Form.ФормаСписка</DefaultForm>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УниверсальнаяСправка</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПФР_Налоговая_СоцВыплаты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Трудоустройство</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.НаправлениеТПМПК</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ОтсутствиеАкадемическойЗадолжности</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеОПриемеВШколу</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.Проездной</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.УведомлениеОЗачислении</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.СправкаВоенкомат</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="87126448-0b10-4bce-8f45-4499a6592abe">
+				<Properties>
+					<Name>Обучающийся</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Обучающийся</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УниверсальнаяСправка.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПФР_Налоговая_СоцВыплаты.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.Трудоустройство.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.НаправлениеТПМПК.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОтсутствиеАкадемическойЗадолжности.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеОПриемеВШколу.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.Проездной.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СправкаВоенкомат.Attribute.Обучающийся</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УведомлениеОЗачислении.Attribute.Обучающийся</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="350f60c1-1c77-4f60-b65e-ca55626c9716">
+				<Properties>
+					<Name>Класс</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Класс</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УниверсальнаяСправка.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПФР_Налоговая_СоцВыплаты.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.Трудоустройство.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.НаправлениеТПМПК.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ОтсутствиеАкадемическойЗадолжности.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ПодтверждениеОПриемеВШколу.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.Проездной.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.СправкаВоенкомат.Attribute.Класс</xr:Item>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.УведомлениеОЗачислении.Attribute.Класс</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+			<Template>Макет</Template>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>
