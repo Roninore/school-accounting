@@ -476,9 +476,12 @@
 					</CommandParameterType>
 					<ParameterUseMode>Multiple</ParameterUseMode>
 					<ModifiesData>false</ModifiesData>
-					<Representation>Auto</Representation>
+					<Representation>PictureAndText</Representation>
 					<ToolTip/>
-					<Picture/>
+					<Picture>
+						<xr:Ref>StdPicture.Print</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
 					<Shortcut/>
 					<OnMainServerUnavalableBehavior>Auto</OnMainServerUnavalableBehavior>
 				</Properties>

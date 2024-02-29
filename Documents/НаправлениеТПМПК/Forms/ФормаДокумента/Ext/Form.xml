@@ -36,6 +36,11 @@
 			<ContextMenu name="КлассКонтекстноеМеню" id="11"/>
 			<ExtendedTooltip name="КлассРасширеннаяПодсказка" id="12"/>
 		</InputField>
+		<InputField name="Причина" id="13">
+			<DataPath>Объект.Причина</DataPath>
+			<ContextMenu name="ПричинаКонтекстноеМеню" id="14"/>
+			<ExtendedTooltip name="ПричинаРасширеннаяПодсказка" id="15"/>
+		</InputField>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">

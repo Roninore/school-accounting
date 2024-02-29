@@ -401,7 +401,7 @@
 			</c>
 			<c>
 				<c>
-					<f>24</f>
+					<f>23</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -413,7 +413,7 @@
 			<c>
 				<i>6</i>
 				<c>
-					<f>25</f>
+					<f>24</f>
 				</c>
 			</c>
 		</row>
@@ -423,13 +423,13 @@
 		<row>
 			<c>
 				<c>
-					<f>26</f>
+					<f>25</f>
 				</c>
 			</c>
 			<c>
 				<i>2</i>
 				<c>
-					<f>27</f>
+					<f>26</f>
 					<parameter>Класс</parameter>
 				</c>
 			</c>
@@ -446,27 +446,27 @@
 		<row>
 			<c>
 				<c>
-					<f>28</f>
+					<f>27</f>
 					<tl/>
 				</c>
 			</c>
 			<c>
 				<i>2</i>
 				<c>
-					<f>29</f>
+					<f>28</f>
 					<parameter>Номер</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>30</f>
+					<f>29</f>
 					<parameter>ФИО</parameter>
 				</c>
 			</c>
 			<c>
 				<i>6</i>
 				<c>
-					<f>31</f>
+					<f>30</f>
 				</c>
 			</c>
 		</row>
@@ -476,7 +476,7 @@
 		<row>
 			<c>
 				<c>
-					<f>32</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -492,7 +492,7 @@
 		<row>
 			<c>
 				<c>
-					<f>33</f>
+					<f>32</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -503,7 +503,7 @@
 			</c>
 			<c>
 				<c>
-					<f>34</f>
+					<f>33</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -515,7 +515,7 @@
 			<c>
 				<i>5</i>
 				<c>
-					<f>35</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -526,7 +526,7 @@
 			</c>
 			<c>
 				<c>
-					<f>35</f>
+					<f>34</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -542,26 +542,26 @@
 		<row>
 			<c>
 				<c>
-					<f>36</f>
+					<f>35</f>
 					<parameter>Номер</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>36</f>
 					<parameter>ФИО</parameter>
 				</c>
 			</c>
 			<c>
 				<i>5</i>
 				<c>
-					<f>38</f>
+					<f>37</f>
 					<parameter>КлассОтчисления</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>37</f>
 					<parameter>КлассЗачисления</parameter>
 				</c>
 			</c>
@@ -572,7 +572,7 @@
 		<row>
 			<c>
 				<c>
-					<f>32</f>
+					<f>31</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -587,32 +587,32 @@
 			</c>
 			<c>
 				<c>
+					<f>38</f>
+				</c>
+			</c>
+			<c>
+				<c>
 					<f>39</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>39</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>39</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>39</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>40</f>
+					<f>39</f>
 				</c>
 			</c>
 		</row>
@@ -632,14 +632,14 @@
 		<row>
 			<c>
 				<c>
-					<f>41</f>
+					<f>40</f>
 					<parameter>ДолжностьРуководителя</parameter>
 				</c>
 			</c>
 			<c>
 				<i>3</i>
 				<c>
-					<f>42</f>
+					<f>41</f>
 					<tl>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
@@ -651,14 +651,14 @@
 			<c>
 				<i>5</i>
 				<c>
-					<f>43</f>
+					<f>42</f>
 					<parameter>ФИОруководителя</parameter>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>44</defaultFormatIndex>
+	<defaultFormatIndex>43</defaultFormatIndex>
 	<height>24</height>
 	<vgRows>24</vgRows>
 	<merge>
@@ -1080,13 +1080,6 @@
 		<leftMargin>0</leftMargin>
 	</format>
 	<format>
-		<font>3</font>
-		<border>0</border>
-		<horizontalAlignment>Left</horizontalAlignment>
-		<fillType>Text</fillType>
-		<leftMargin>0</leftMargin>
-	</format>
-	<format>
 		<font>1</font>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<fillType>Template</fillType>
@@ -1155,11 +1148,13 @@
 		<font>0</font>
 		<border>0</border>
 		<width>135</width>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
@@ -1186,6 +1181,7 @@
 	<format>
 		<font>0</font>
 		<border>0</border>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>

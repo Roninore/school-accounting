@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<DocumentJournal uuid="1550fbd6-cc7a-4d41-a123-90961e45fe3b">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЖурналВходящихДокументов" category="Selection">
+				<xr:TypeId>cd9a4374-584e-4b12-b117-e23e64ab172b</xr:TypeId>
+				<xr:ValueId>b18c699e-f5ed-4fd1-bd4a-dfa0a56d8050</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЖурналВходящихДокументов" category="List">
+				<xr:TypeId>5a487d49-2d31-4430-a7af-3f5de21fd7aa</xr:TypeId>
+				<xr:ValueId>1072f404-bc7c-4e91-a0c8-57d374730f57</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЖурналВходящихДокументов" category="Manager">
+				<xr:TypeId>45431494-8a19-407e-a4ce-fd5e6771b4ed</xr:TypeId>
+				<xr:ValueId>f651d3e4-be4d-4d10-834a-ba6e24f38a8c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЖурналВходящихДокументов</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал входящих документов</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm>DocumentJournal.ЖурналВходящихДокументов.Form.ФормаСписка</DefaultForm>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="2ac364da-e92f-42b2-a77e-5bc9d249616c">
+				<Properties>
+					<Name>Отправитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отправитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов.Attribute.Отправитель</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="147e3e75-d080-4291-9402-74010645142d">
+				<Properties>
+					<Name>ТемаСообщения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тема сообщения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов.Attribute.ТемаСообщения</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="edca7473-d1d0-49a8-b4b4-3e023b18a0d6">
+				<Properties>
+					<Name>СрокИсполнения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Срок исполнения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов.Attribute.СрокРассмотренияДо</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="ebccff25-04a4-4d88-83bd-17cd750ab176">
+				<Properties>
+					<Name>ОтветственныйИсполнитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственный исполнитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов.Attribute.ОтветственныйИсполнитель</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="82be09be-742b-434c-ac49-7a40c1b579ee">
+				<Properties>
+					<Name>ОтметкаОбИсполнении</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отметка об исполнении</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналВходящихДокументов.Attribute.Ответ</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

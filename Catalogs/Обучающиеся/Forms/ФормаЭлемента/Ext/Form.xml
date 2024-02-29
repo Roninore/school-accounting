@@ -177,6 +177,74 @@
 							<ContextMenu name="СертификатПФДОКонтекстноеМеню" id="140"/>
 							<ExtendedTooltip name="СертификатПФДОРасширеннаяПодсказка" id="141"/>
 						</InputField>
+						<Table name="Родители" id="207">
+							<Height>5</Height>
+							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Родители</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="РодителиКонтекстноеМеню" id="208"/>
+							<AutoCommandBar name="РодителиКоманднаяПанель" id="209"/>
+							<ExtendedTooltip name="РодителиРасширеннаяПодсказка" id="210"/>
+							<SearchStringAddition name="РодителиСтрокаПоиска" id="211">
+								<AdditionSource>
+									<Item>Родители</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РодителиСтрокаПоискаКонтекстноеМеню" id="212"/>
+								<ExtendedTooltip name="РодителиСтрокаПоискаРасширеннаяПодсказка" id="213"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="РодителиСостояниеПросмотра" id="214">
+								<AdditionSource>
+									<Item>Родители</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="РодителиСостояниеПросмотраКонтекстноеМеню" id="215"/>
+								<ExtendedTooltip name="РодителиСостояниеПросмотраРасширеннаяПодсказка" id="216"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="РодителиУправлениеПоиском" id="217">
+								<AdditionSource>
+									<Item>Родители</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="РодителиУправлениеПоискомКонтекстноеМеню" id="218"/>
+								<ExtendedTooltip name="РодителиУправлениеПоискомРасширеннаяПодсказка" id="219"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="РодителиНомерСтроки" id="220">
+									<DataPath>Объект.Родители.LineNumber</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>№</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РодителиНомерСтрокиКонтекстноеМеню" id="221"/>
+									<ExtendedTooltip name="РодителиНомерСтрокиРасширеннаяПодсказка" id="222"/>
+								</LabelField>
+								<InputField name="РодителиРодитель" id="223">
+									<DataPath>Объект.Родители.Родитель</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>ФИО родителя</v8:content>
+										</v8:item>
+									</Title>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РодителиРодительКонтекстноеМеню" id="224"/>
+									<ExtendedTooltip name="РодителиРодительРасширеннаяПодсказка" id="225"/>
+								</InputField>
+								<InputField name="РодителиТип" id="226">
+									<DataPath>Объект.Родители.Тип</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="РодителиТипКонтекстноеМеню" id="227"/>
+									<ExtendedTooltip name="РодителиТипРасширеннаяПодсказка" id="228"/>
+								</InputField>
+							</ChildItems>
+						</Table>
 						<LabelDecoration name="Надпись" id="61">
 							<TextColor>style:FieldSelectionBackColor</TextColor>
 							<Font ref="style:NormalTextFont" faceName="Arial Black" kind="StyleItem" scale="100"/>
@@ -421,76 +489,6 @@
 					</ToolTip>
 					<HorizontalStretch>true</HorizontalStretch>
 					<ExtendedTooltip name="СведенияОРодителяхРасширеннаяПодсказка" id="4"/>
-					<ChildItems>
-						<Table name="Родители" id="207">
-							<Height>5</Height>
-							<HeightControlVariant>UseHeightInFormRows</HeightControlVariant>
-							<AutoInsertNewRow>true</AutoInsertNewRow>
-							<EnableStartDrag>true</EnableStartDrag>
-							<EnableDrag>true</EnableDrag>
-							<DataPath>Объект.Родители</DataPath>
-							<RowFilter xsi:nil="true"/>
-							<ContextMenu name="РодителиКонтекстноеМеню" id="208"/>
-							<AutoCommandBar name="РодителиКоманднаяПанель" id="209"/>
-							<ExtendedTooltip name="РодителиРасширеннаяПодсказка" id="210"/>
-							<SearchStringAddition name="РодителиСтрокаПоиска" id="211">
-								<AdditionSource>
-									<Item>Родители</Item>
-									<Type>SearchStringRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РодителиСтрокаПоискаКонтекстноеМеню" id="212"/>
-								<ExtendedTooltip name="РодителиСтрокаПоискаРасширеннаяПодсказка" id="213"/>
-							</SearchStringAddition>
-							<ViewStatusAddition name="РодителиСостояниеПросмотра" id="214">
-								<AdditionSource>
-									<Item>Родители</Item>
-									<Type>ViewStatusRepresentation</Type>
-								</AdditionSource>
-								<ContextMenu name="РодителиСостояниеПросмотраКонтекстноеМеню" id="215"/>
-								<ExtendedTooltip name="РодителиСостояниеПросмотраРасширеннаяПодсказка" id="216"/>
-							</ViewStatusAddition>
-							<SearchControlAddition name="РодителиУправлениеПоиском" id="217">
-								<AdditionSource>
-									<Item>Родители</Item>
-									<Type>SearchControl</Type>
-								</AdditionSource>
-								<ContextMenu name="РодителиУправлениеПоискомКонтекстноеМеню" id="218"/>
-								<ExtendedTooltip name="РодителиУправлениеПоискомРасширеннаяПодсказка" id="219"/>
-							</SearchControlAddition>
-							<ChildItems>
-								<LabelField name="РодителиНомерСтроки" id="220">
-									<DataPath>Объект.Родители.LineNumber</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>№</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РодителиНомерСтрокиКонтекстноеМеню" id="221"/>
-									<ExtendedTooltip name="РодителиНомерСтрокиРасширеннаяПодсказка" id="222"/>
-								</LabelField>
-								<InputField name="РодителиРодитель" id="223">
-									<DataPath>Объект.Родители.Родитель</DataPath>
-									<Title>
-										<v8:item>
-											<v8:lang>ru</v8:lang>
-											<v8:content>ФИО родителя</v8:content>
-										</v8:item>
-									</Title>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РодителиРодительКонтекстноеМеню" id="224"/>
-									<ExtendedTooltip name="РодителиРодительРасширеннаяПодсказка" id="225"/>
-								</InputField>
-								<InputField name="РодителиТип" id="226">
-									<DataPath>Объект.Родители.Тип</DataPath>
-									<EditMode>EnterOnInput</EditMode>
-									<ContextMenu name="РодителиТипКонтекстноеМеню" id="227"/>
-									<ExtendedTooltip name="РодителиТипРасширеннаяПодсказка" id="228"/>
-								</InputField>
-							</ChildItems>
-						</Table>
-					</ChildItems>
 				</Page>
 				<Page name="Льготы" id="91">
 					<Title>

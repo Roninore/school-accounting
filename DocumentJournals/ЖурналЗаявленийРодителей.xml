@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<DocumentJournal uuid="1dd77041-2873-4e40-8873-3d469107f17c">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentJournalSelection.ЖурналЗаявленийРодителей" category="Selection">
+				<xr:TypeId>56129f7b-6a7a-451c-a355-0b69d4704744</xr:TypeId>
+				<xr:ValueId>8b93d937-d4e1-4a3e-af4d-43d43f9b978a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalList.ЖурналЗаявленийРодителей" category="List">
+				<xr:TypeId>a511c779-fe03-4f99-864a-e5b4919771d7</xr:TypeId>
+				<xr:ValueId>920515d9-7621-4a18-b950-aa678859176a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentJournalManager.ЖурналЗаявленийРодителей" category="Manager">
+				<xr:TypeId>01a750f1-ae29-4a0d-b130-985dcd5719e7</xr:TypeId>
+				<xr:ValueId>f24d5900-472e-4f36-b189-37d09c140339</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ЖурналЗаявленийРодителей</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Журнал заявлений родителей</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<DefaultForm>DocumentJournal.ЖурналЗаявленийРодителей.Form.ФормаСписка</DefaultForm>
+			<AuxiliaryForm/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<RegisteredDocuments>
+				<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей</xr:Item>
+			</RegisteredDocuments>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ListPresentation/>
+			<ExtendedListPresentation/>
+			<Explanation/>
+		</Properties>
+		<ChildObjects>
+			<Column uuid="47c4fa6d-9c4f-45d1-bbd8-eb8e59196f2a">
+				<Properties>
+					<Name>ФИОЗаявителя</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ФИО заявителя</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей.Attribute.Родитель</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="2b572044-7a0d-4021-bba0-068ae304ccfb">
+				<Properties>
+					<Name>ТемаОбращения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Тема обращения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей.Attribute.ТемаОбращения</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="bfe045d2-3c5c-4a26-b1b9-9654876dc8dd">
+				<Properties>
+					<Name>ОтветственныйИсполнитель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственный исполнитель</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей.Attribute.ОтветственныйИсполнитель</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="f0503f07-19c9-4726-8f35-7401cb158f2c">
+				<Properties>
+					<Name>СрокИсполнения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Срок исполнения</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей.Attribute.СрокРассмотренияДо</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Column uuid="1982a298-af6c-4d2c-bc91-57f12f068c27">
+				<Properties>
+					<Name>ОтметкаОбИсполнении</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отметка об исполнении</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Indexing>DontIndex</Indexing>
+					<References>
+						<xr:Item xsi:type="xr:MDObjectRef">Document.ЖурналЗаявленийРодителей.Attribute.Ответ</xr:Item>
+					</References>
+				</Properties>
+			</Column>
+			<Form>ФормаСписка</Form>
+		</ChildObjects>
+	</DocumentJournal>
+</MetaDataObject>

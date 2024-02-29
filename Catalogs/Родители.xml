@@ -523,7 +523,7 @@
 					<EditFormat/>
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
-					<Mask>999999</Mask>
+					<Mask/>
 					<MultiLine>false</MultiLine>
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>
@@ -567,7 +567,7 @@
 					<EditFormat/>
 					<ToolTip/>
 					<MarkNegatives>false</MarkNegatives>
-					<Mask>9999</Mask>
+					<Mask/>
 					<MultiLine>false</MultiLine>
 					<ExtendedEdit>false</ExtendedEdit>
 					<MinValue xsi:nil="true"/>

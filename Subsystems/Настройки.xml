@@ -26,7 +26,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ЗагрузкаДанных</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕГИССО_ДанныеКатегорий</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Банки</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Document.test</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Организации</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

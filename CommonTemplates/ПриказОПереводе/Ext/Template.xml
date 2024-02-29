@@ -839,6 +839,7 @@
 	<format>
 		<font>0</font>
 		<width>78</width>
+		<horizontalAlignment>Justify</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Template</fillType>
 		<format>
@@ -891,7 +892,7 @@
 		<font>0</font>
 		<border>0</border>
 		<width>156</width>
-		<horizontalAlignment>Left</horizontalAlignment>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<fillType>Parameter</fillType>
 		<format>
 			<v8:item>
@@ -904,7 +905,7 @@
 		<font>0</font>
 		<border>0</border>
 		<width>175</width>
-		<horizontalAlignment>Left</horizontalAlignment>
+		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 	</format>

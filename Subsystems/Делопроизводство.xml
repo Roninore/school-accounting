@@ -18,18 +18,11 @@
 				<xr:Ref>CommonPicture.Делопроизводство</xr:Ref>
 				<xr:LoadTransparent>true</xr:LoadTransparent>
 			</Picture>
-			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.УчебныеГода</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Наполняемость</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.СписокКласса</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Родители</xr:Item>
-				<xr:Item xsi:type="xr:MDObjectRef">Report.Контингент</xr:Item>
-			</Content>
+			<Content/>
 		</Properties>
 		<ChildObjects>
 			<Subsystem>Справки</Subsystem>
-			<Subsystem>Контингент</Subsystem>
-			<Subsystem>СоциальноеОбеспечение</Subsystem>
+			<Subsystem>Журналы</Subsystem>
 		</ChildObjects>
 	</Subsystem>
 </MetaDataObject>

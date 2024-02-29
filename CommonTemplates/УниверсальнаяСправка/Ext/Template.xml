@@ -3078,6 +3078,7 @@ e-mail: school1@cherepovetscity.ru
 	<format>
 		<font>0</font>
 		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
 	</format>
 	<format>
 		<font>3</font>

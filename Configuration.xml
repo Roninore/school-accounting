@@ -51,7 +51,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.Администратор</xr:Item>
 			</DefaultRoles>
 			<Vendor>Крылов Никита Андреевич</Vendor>
-			<Version>R1.0</Version>
+			<Version>R1.7</Version>
 			<UpdateCatalogAddress/>
 			<IncludeHelpInContents>false</IncludeHelpInContents>
 			<UseManagedFormInOrdinaryApplication>false</UseManagedFormInOrdinaryApplication>
@@ -241,17 +241,22 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Контингент</Subsystem>
 			<Subsystem>Делопроизводство</Subsystem>
 			<Subsystem>Кадры</Subsystem>
 			<Subsystem>Настройки</Subsystem>
+			<Subsystem>ДополнительноеОбразование</Subsystem>
 			<CommonPicture>Лого</CommonPicture>
 			<CommonPicture>Делопроизводство</CommonPicture>
 			<CommonPicture>Кадры</CommonPicture>
 			<CommonPicture>Настройки</CommonPicture>
 			<Role>Администратор</Role>
 			<CommonTemplate>ЕГИССО</CommonTemplate>
+			<CommonTemplate>КарточкаРегистрацииТелефонограммы</CommonTemplate>
 			<CommonTemplate>КомпенсацияОдежда</CommonTemplate>
 			<CommonTemplate>КомпенсацияПроезд</CommonTemplate>
+			<CommonTemplate>Компонент_RegExp</CommonTemplate>
+			<CommonTemplate>НаправлениеТПМПК</CommonTemplate>
 			<CommonTemplate>ОтсутствиеАкадемическойЗадолжности</CommonTemplate>
 			<CommonTemplate>ПриказНовыйУчебныйГод</CommonTemplate>
 			<CommonTemplate>ПриказОбОкончанииОбучения11</CommonTemplate>
@@ -260,11 +265,11 @@
 			<CommonTemplate>ПриказОЗачислении</CommonTemplate>
 			<CommonTemplate>ПриказОПереводе</CommonTemplate>
 			<CommonTemplate>ПФР_Налоговая_СоцВыплаты</CommonTemplate>
+			<CommonTemplate>СправкаВоенкомат</CommonTemplate>
 			<CommonTemplate>Трудоустройство</CommonTemplate>
 			<CommonTemplate>УведомлениеОЗачислении</CommonTemplate>
 			<CommonTemplate>УведомлениеПДн</CommonTemplate>
 			<CommonTemplate>УниверсальнаяСправка</CommonTemplate>
-			<CommonTemplate>Компонент_RegExp</CommonTemplate>
 			<CommonModule>РаботаСПечатью</CommonModule>
 			<CommonModule>ОбщиеУтилиты</CommonModule>
 			<Constant>ИНН_Организации</Constant>
@@ -272,6 +277,7 @@
 			<Constant>РуководительОрганизации</Constant>
 			<CommonForm>ДанныеОрганизации</CommonForm>
 			<CommonForm>ФормаНастроекДинамическогоСписка</CommonForm>
+			<Catalog>Организации</Catalog>
 			<Catalog>Банки</Catalog>
 			<Catalog>ЕГИССО_ДанныеКатегорий</Catalog>
 			<Catalog>Категории</Catalog>
@@ -283,6 +289,7 @@
 			<Catalog>Сотрудники</Catalog>
 			<Catalog>УчебныеГода</Catalog>
 			<Catalog>ШтатноеРасписание</Catalog>
+			<Catalog>ПрограммыДополнительногоОбразования</Catalog>
 			<Document>ДвижениеОбучающихся</Document>
 			<Document>ЕГИССО</Document>
 			<Document>КомпенсацияОдежда</Document>
@@ -296,10 +303,18 @@
 			<Document>Трудоустройство</Document>
 			<Document>УведомлениеОЗачислении</Document>
 			<Document>УниверсальнаяСправка</Document>
-			<Document>test</Document>
+			<Document>ЖурналЗаявленийРодителей</Document>
+			<Document>ЖурналЗаявленийСотрудников</Document>
+			<Document>ЖурналВходящихДокументов</Document>
+			<Document>Телефонограммы</Document>
 			<DocumentNumerator>Движения</DocumentNumerator>
 			<DocumentNumerator>Справки</DocumentNumerator>
+			<DocumentNumerator>Договоры</DocumentNumerator>
 			<DocumentJournal>ЖурналВыдачиСправок</DocumentJournal>
+			<DocumentJournal>ЖурналЗаявленийРодителей</DocumentJournal>
+			<DocumentJournal>ЖурналЗаявленийСотрудников</DocumentJournal>
+			<DocumentJournal>ЖурналВходящихДокументов</DocumentJournal>
+			<DocumentJournal>Телефонограммы</DocumentJournal>
 			<Enum>Документы</Enum>
 			<Enum>Параллели</Enum>
 			<Enum>ПереченьЛьгот</Enum>
@@ -309,6 +324,9 @@
 			<Enum>RecType</Enum>
 			<Enum>Gender_recip</Enum>
 			<Enum>usingSign</Enum>
+			<Enum>Телефонограммы</Enum>
+			<Enum>ПричиныТПМПК</Enum>
+			<Enum>НаправленностьПрограмм</Enum>
 			<Report>ПроизвольныйЗапрос</Report>
 			<Report>Наполняемость</Report>
 			<Report>СписокКласса</Report>

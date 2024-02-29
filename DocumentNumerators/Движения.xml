@@ -14,7 +14,7 @@
 			<NumberLength>9</NumberLength>
 			<NumberAllowedLength>Variable</NumberAllowedLength>
 			<NumberPeriodicity>Year</NumberPeriodicity>
-			<CheckUnique>true</CheckUnique>
+			<CheckUnique>false</CheckUnique>
 		</Properties>
 	</DocumentNumerator>
 </MetaDataObject>
