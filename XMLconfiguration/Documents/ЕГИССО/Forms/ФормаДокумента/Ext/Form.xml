@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="ТипЕГИССО" id="7">
+			<DataPath>Объект.ТипЕГИССО</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="ТипЕГИССОКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="ТипЕГИССОРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="УчебныйГод" id="10">
+			<DataPath>Объект.УчебныйГод</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ContextMenu name="УчебныйГодКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="УчебныйГодРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Button name="ЗаполнитьОбучающихся" id="143">
+			<Type>UsualButton</Type>
+			<CommandName>Form.Command.ЗаполнитьОбучающихся</CommandName>
+			<ExtendedTooltip name="ЗаполнитьОбучающихсяРасширеннаяПодсказка" id="144"/>
+		</Button>
+		<Table name="Таблица" id="13">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>Объект.Таблица</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="ТаблицаКонтекстноеМеню" id="14"/>
+			<AutoCommandBar name="ТаблицаКоманднаяПанель" id="15"/>
+			<ExtendedTooltip name="ТаблицаРасширеннаяПодсказка" id="16"/>
+			<SearchStringAddition name="ТаблицаСтрокаПоиска" id="17">
+				<AdditionSource>
+					<Item>Таблица</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаСтрокаПоискаКонтекстноеМеню" id="18"/>
+				<ExtendedTooltip name="ТаблицаСтрокаПоискаРасширеннаяПодсказка" id="19"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="ТаблицаСостояниеПросмотра" id="20">
+				<AdditionSource>
+					<Item>Таблица</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаСостояниеПросмотраКонтекстноеМеню" id="21"/>
+				<ExtendedTooltip name="ТаблицаСостояниеПросмотраРасширеннаяПодсказка" id="22"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="ТаблицаУправлениеПоиском" id="23">
+				<AdditionSource>
+					<Item>Таблица</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="ТаблицаУправлениеПоискомКонтекстноеМеню" id="24"/>
+				<ExtendedTooltip name="ТаблицаУправлениеПоискомРасширеннаяПодсказка" id="25"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<InputField name="ТаблицаОбучающийся" id="145">
+					<DataPath>Объект.Таблица.Обучающийся</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаОбучающийсяКонтекстноеМеню" id="146"/>
+					<ExtendedTooltip name="ТаблицаОбучающийсяРасширеннаяПодсказка" id="147"/>
+				</InputField>
+				<InputField name="ТаблицаРодитель" id="148">
+					<DataPath>Объект.Таблица.Родитель</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаРодительКонтекстноеМеню" id="149"/>
+					<ExtendedTooltip name="ТаблицаРодительРасширеннаяПодсказка" id="150"/>
+				</InputField>
+				<LabelField name="ТаблицаНомерСтроки" id="26">
+					<DataPath>Объект.Таблица.LineNumber</DataPath>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>№</v8:content>
+						</v8:item>
+					</Title>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаНомерСтрокиКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="ТаблицаНомерСтрокиРасширеннаяПодсказка" id="28"/>
+				</LabelField>
+				<InputField name="ТаблицаRecType" id="29">
+					<DataPath>1/0:7cd74adf-3520-4707-8638-c5205563244b/0:f76a302f-4cdb-4c46-bc95-317d1f65d9ba</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаRecTypeКонтекстноеМеню" id="30"/>
+					<ExtendedTooltip name="ТаблицаRecTypeРасширеннаяПодсказка" id="31"/>
+				</InputField>
+				<InputField name="ТаблицаLMSZID" id="32">
+					<DataPath>Объект.Таблица.LMSZID</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаLMSZIDКонтекстноеМеню" id="33"/>
+					<ExtendedTooltip name="ТаблицаLMSZIDРасширеннаяПодсказка" id="34"/>
+				</InputField>
+				<InputField name="ТаблицаcategoryID" id="35">
+					<DataPath>Объект.Таблица.categoryID</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаcategoryIDКонтекстноеМеню" id="36"/>
+					<ExtendedTooltip name="ТаблицаcategoryIDРасширеннаяПодсказка" id="37"/>
+				</InputField>
+				<InputField name="ТаблицаONMSZCode" id="38">
+					<DataPath>1/0:7cd74adf-3520-4707-8638-c5205563244b/0:39f7d92a-ca01-4294-95be-bfa75958e6dd</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаONMSZCodeКонтекстноеМеню" id="39"/>
+					<ExtendedTooltip name="ТаблицаONMSZCodeРасширеннаяПодсказка" id="40"/>
+				</InputField>
+				<InputField name="ТаблицаSNILS_recip" id="41">
+					<DataPath>Объект.Таблица.SNILS_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаSNILS_recipКонтекстноеМеню" id="42"/>
+					<ExtendedTooltip name="ТаблицаSNILS_recipРасширеннаяПодсказка" id="43"/>
+				</InputField>
+				<InputField name="ТаблицаFamilyName_recip" id="44">
+					<DataPath>Объект.Таблица.FamilyName_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаFamilyName_recipКонтекстноеМеню" id="45"/>
+					<ExtendedTooltip name="ТаблицаFamilyName_recipРасширеннаяПодсказка" id="46"/>
+				</InputField>
+				<InputField name="ТаблицаName_recip" id="47">
+					<DataPath>Объект.Таблица.Name_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаName_recipКонтекстноеМеню" id="48"/>
+					<ExtendedTooltip name="ТаблицаName_recipРасширеннаяПодсказка" id="49"/>
+				</InputField>
+				<InputField name="ТаблицаPatronymic_recip" id="50">
+					<DataPath>Объект.Таблица.Patronymic_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаPatronymic_recipКонтекстноеМеню" id="51"/>
+					<ExtendedTooltip name="ТаблицаPatronymic_recipРасширеннаяПодсказка" id="52"/>
+				</InputField>
+				<InputField name="ТаблицаGender_recip" id="53">
+					<DataPath>Объект.Таблица.Gender_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаGender_recipКонтекстноеМеню" id="54"/>
+					<ExtendedTooltip name="ТаблицаGender_recipРасширеннаяПодсказка" id="55"/>
+				</InputField>
+				<InputField name="ТаблицаBirthDate_recip" id="56">
+					<DataPath>Объект.Таблица.BirthDate_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаBirthDate_recipКонтекстноеМеню" id="57"/>
+					<ExtendedTooltip name="ТаблицаBirthDate_recipРасширеннаяПодсказка" id="58"/>
+				</InputField>
+				<InputField name="Таблицаdoctype_recip" id="59">
+					<DataPath>Объект.Таблица.doctype_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoctype_recipКонтекстноеМеню" id="60"/>
+					<ExtendedTooltip name="Таблицаdoctype_recipРасширеннаяПодсказка" id="61"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Series_recip" id="62">
+					<DataPath>Объект.Таблица.doc_Series_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Series_recipКонтекстноеМеню" id="63"/>
+					<ExtendedTooltip name="Таблицаdoc_Series_recipРасширеннаяПодсказка" id="64"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Number_recip" id="65">
+					<DataPath>Объект.Таблица.doc_Number_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Number_recipКонтекстноеМеню" id="66"/>
+					<ExtendedTooltip name="Таблицаdoc_Number_recipРасширеннаяПодсказка" id="67"/>
+				</InputField>
+				<InputField name="Таблицаdoc_IssueDate_recip" id="68">
+					<DataPath>Объект.Таблица.doc_IssueDate_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_IssueDate_recipКонтекстноеМеню" id="69"/>
+					<ExtendedTooltip name="Таблицаdoc_IssueDate_recipРасширеннаяПодсказка" id="70"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Issuer_recip" id="71">
+					<DataPath>Объект.Таблица.doc_Issuer_recip</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Issuer_recipКонтекстноеМеню" id="72"/>
+					<ExtendedTooltip name="Таблицаdoc_Issuer_recipРасширеннаяПодсказка" id="73"/>
+				</InputField>
+				<InputField name="ТаблицаSNILS_reason" id="74">
+					<DataPath>Объект.Таблица.SNILS_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаSNILS_reasonКонтекстноеМеню" id="75"/>
+					<ExtendedTooltip name="ТаблицаSNILS_reasonРасширеннаяПодсказка" id="76"/>
+				</InputField>
+				<InputField name="ТаблицаFamilyName_reason" id="77">
+					<DataPath>Объект.Таблица.FamilyName_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаFamilyName_reasonКонтекстноеМеню" id="78"/>
+					<ExtendedTooltip name="ТаблицаFamilyName_reasonРасширеннаяПодсказка" id="79"/>
+				</InputField>
+				<InputField name="ТаблицаName_reason" id="80">
+					<DataPath>Объект.Таблица.Name_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаName_reasonКонтекстноеМеню" id="81"/>
+					<ExtendedTooltip name="ТаблицаName_reasonРасширеннаяПодсказка" id="82"/>
+				</InputField>
+				<InputField name="ТаблицаPatronymic_reason" id="83">
+					<DataPath>Объект.Таблица.Patronymic_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаPatronymic_reasonКонтекстноеМеню" id="84"/>
+					<ExtendedTooltip name="ТаблицаPatronymic_reasonРасширеннаяПодсказка" id="85"/>
+				</InputField>
+				<InputField name="ТаблицаGender_reason" id="86">
+					<DataPath>Объект.Таблица.Gender_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаGender_reasonКонтекстноеМеню" id="87"/>
+					<ExtendedTooltip name="ТаблицаGender_reasonРасширеннаяПодсказка" id="88"/>
+				</InputField>
+				<InputField name="ТаблицаBirthDate_reason" id="89">
+					<DataPath>Объект.Таблица.BirthDate_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаBirthDate_reasonКонтекстноеМеню" id="90"/>
+					<ExtendedTooltip name="ТаблицаBirthDate_reasonРасширеннаяПодсказка" id="91"/>
+				</InputField>
+				<InputField name="Таблицаdoctype_reason" id="92">
+					<DataPath>Объект.Таблица.doctype_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoctype_reasonКонтекстноеМеню" id="93"/>
+					<ExtendedTooltip name="Таблицаdoctype_reasonРасширеннаяПодсказка" id="94"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Series_reason" id="95">
+					<DataPath>Объект.Таблица.doc_Series_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Series_reasonКонтекстноеМеню" id="96"/>
+					<ExtendedTooltip name="Таблицаdoc_Series_reasonРасширеннаяПодсказка" id="97"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Number_reason" id="98">
+					<DataPath>Объект.Таблица.doc_Number_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Number_reasonКонтекстноеМеню" id="99"/>
+					<ExtendedTooltip name="Таблицаdoc_Number_reasonРасширеннаяПодсказка" id="100"/>
+				</InputField>
+				<InputField name="Таблицаdoc_IssueDate_reason" id="101">
+					<DataPath>Объект.Таблица.doc_IssueDate_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_IssueDate_reasonКонтекстноеМеню" id="102"/>
+					<ExtendedTooltip name="Таблицаdoc_IssueDate_reasonРасширеннаяПодсказка" id="103"/>
+				</InputField>
+				<InputField name="Таблицаdoc_Issuer_reason" id="104">
+					<DataPath>Объект.Таблица.doc_Issuer_reason</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdoc_Issuer_reasonКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="Таблицаdoc_Issuer_reasonРасширеннаяПодсказка" id="106"/>
+				</InputField>
+				<InputField name="Таблицаdecision_date" id="107">
+					<DataPath>Объект.Таблица.decision_date</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="Таблицаdecision_dateКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="Таблицаdecision_dateРасширеннаяПодсказка" id="109"/>
+				</InputField>
+				<InputField name="ТаблицаdateStart" id="110">
+					<DataPath>Объект.Таблица.dateStart</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаdateStartКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="ТаблицаdateStartРасширеннаяПодсказка" id="112"/>
+				</InputField>
+				<InputField name="ТаблицаdateFinish" id="113">
+					<DataPath>Объект.Таблица.dateFinish</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаdateFinishКонтекстноеМеню" id="114"/>
+					<ExtendedTooltip name="ТаблицаdateFinishРасширеннаяПодсказка" id="115"/>
+				</InputField>
+				<InputField name="ТаблицаusingSign" id="116">
+					<DataPath>Объект.Таблица.usingSign</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаusingSignКонтекстноеМеню" id="117"/>
+					<ExtendedTooltip name="ТаблицаusingSignРасширеннаяПодсказка" id="118"/>
+				</InputField>
+				<InputField name="Таблицаcriteria" id="119">
+					<DataPath>Объект.Таблица.criteria</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаcriteriaКонтекстноеМеню" id="120"/>
+					<ExtendedTooltip name="ТаблицаcriteriaРасширеннаяПодсказка" id="121"/>
+				</InputField>
+				<InputField name="ТаблицаFormCode" id="122">
+					<DataPath>Объект.Таблица.FormCode</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаFormCodeКонтекстноеМеню" id="123"/>
+					<ExtendedTooltip name="ТаблицаFormCodeРасширеннаяПодсказка" id="124"/>
+				</InputField>
+				<InputField name="Таблицаamount" id="125">
+					<DataPath>Объект.Таблица.amount</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаamountКонтекстноеМеню" id="126"/>
+					<ExtendedTooltip name="ТаблицаamountРасширеннаяПодсказка" id="127"/>
+				</InputField>
+				<InputField name="ТаблицаmeasuryCode" id="128">
+					<DataPath>Объект.Таблица.measuryCode</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаmeasuryCodeКонтекстноеМеню" id="129"/>
+					<ExtendedTooltip name="ТаблицаmeasuryCodeРасширеннаяПодсказка" id="130"/>
+				</InputField>
+				<CheckBoxField name="Таблицаmonetization" id="131">
+					<DataPath>Объект.Таблица.monetization</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ТаблицаmonetizationКонтекстноеМеню" id="132"/>
+					<ExtendedTooltip name="ТаблицаmonetizationРасширеннаяПодсказка" id="133"/>
+				</CheckBoxField>
+				<InputField name="Таблицаcontent" id="134">
+					<DataPath>Объект.Таблица.content</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаcontentКонтекстноеМеню" id="135"/>
+					<ExtendedTooltip name="ТаблицаcontentРасширеннаяПодсказка" id="136"/>
+				</InputField>
+				<InputField name="Таблицаcomment" id="137">
+					<DataPath>Объект.Таблица.comment</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаcommentКонтекстноеМеню" id="138"/>
+					<ExtendedTooltip name="ТаблицаcommentРасширеннаяПодсказка" id="139"/>
+				</InputField>
+				<InputField name="ТаблицаequivalentAmount" id="140">
+					<DataPath>Объект.Таблица.equivalentAmount</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="ТаблицаequivalentAmountКонтекстноеМеню" id="141"/>
+					<ExtendedTooltip name="ТаблицаequivalentAmountРасширеннаяПодсказка" id="142"/>
+				</InputField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЕГИССО</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаполнитьОбучающихся" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить обучающихся</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Заполнить обучающихся</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаполнитьОбучающихся</Action>
+		</Command>
+	</Commands>
+</Form>
