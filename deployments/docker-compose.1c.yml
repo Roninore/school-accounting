@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  postgres-1c:
+    container_name: 1c-enterprice-roninore
+    build:
+      context: ..
+      dockerfile: deployments/1c_enterprise/Dockerfile
+    ports:
+      - "1540:1540"
+      - "1541:1541"
+      - "1560:1591"
+    volumes:
+      - "./1c_data:/home/usr1cv8/.1cv8/1C"
+    networks:
+      - 1c-ent
+
+networks:
+  1c-ent:
+    external: true

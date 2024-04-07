@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  postgres-1c:
+    container_name: postgres-1c
+    build:
+      context: ..
+      dockerfile: deployments/postgres/Dockerfile
+    command: ["/opt/pgpro/1c-15/bin/pg-setup", "initdb"]
+    ports:
+      - "5432:5432"
+    volumes:
+      - "./postgres-data:/var/lib/pgpro/1c-15/data"
