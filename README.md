@@ -7,3 +7,6 @@
 - Docker (планируется Docker Swarm)
 - 1С: Предприятие (8.3)
 - Postgres 15 (от Postgres Pro, версия совместимая с 1С)
+
+## Мигрировано на GitLab из-за CI/CD
+https://gitlab.com/Roninore/school-accounting
